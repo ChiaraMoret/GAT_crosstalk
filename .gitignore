@@ -1,2 +1,8 @@
+# orfeo notebook launchers
 notebook_dgx.sh
 notebook_dgx.out
+
+# large files
+*.pt
+*.csv
+*.gz
