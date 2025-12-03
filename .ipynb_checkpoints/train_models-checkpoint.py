@@ -27,8 +27,8 @@ def pos_pt(split_set):
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # hyperparametrs
-train_batch_size = 8
-val_batch_size = 8
+train_batch_size = 1
+val_batch_size = 1
 hidden_channels = 64
 num_layers = 3
 n_heads = 5
