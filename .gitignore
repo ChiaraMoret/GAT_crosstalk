@@ -2,6 +2,7 @@
 notebook_dgx.sh
 notebook_dgx.out
 run_model_training.sh
+GAT_training.out
 
 # large files
 *.pt

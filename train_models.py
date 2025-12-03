@@ -160,7 +160,7 @@ for seed in seeds:
         
         results_tag = "_".join(f"{k}{v}" for k, v in results_parts.items())
 
-        filename = f"{results_folder}/results_{tag}.pt"
+        filename = f"{results_folder}/results_{results_tag}.pt"
         
         torch.save(results, filename)
         print(f"Results saved to {filename}")
